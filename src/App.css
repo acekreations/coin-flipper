@@ -20,6 +20,7 @@ body {
     position: relative;
     border: 8px solid #fff;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .coin.is-flipped {

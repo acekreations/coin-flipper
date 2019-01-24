@@ -4,6 +4,7 @@ import "./App.css";
 class App extends Component {
     componentDidMount() {
         this.flipCoin();
+        document.addEventListener("touchstart", function() {}, true);
     }
 
     flipCoin = () => {
